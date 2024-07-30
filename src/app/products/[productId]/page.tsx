@@ -1,6 +1,5 @@
-export default function ProductList({params}:{params:{productId:string}}){
-    console.log(params)
+export default function ProductList({ params }: { params: { productId: string } }) {
     return (<>
-test {params.productId}
+        <p> Product with Id {params?.productId}</p>
     </>)
 }
